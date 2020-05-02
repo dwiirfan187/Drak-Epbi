@@ -317,7 +317,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[0;1mSabar om,orang sabar di sayang janda')
+	print('\x1b[1;96m[!] \x1b[0;1mSabar Cok. Kalo Cp Tungguin Ae Cok 2 Hari')
 	print 42*"\033[1;96m="
 	
 			

